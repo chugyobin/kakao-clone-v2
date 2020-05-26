@@ -1,0 +1,151 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Chelsea+Market&display=swap');
+
+a{
+    color: inherit;
+    text-decoration: none;
+}
+*{
+
+    box-sizing: border-box;
+}
+html{
+    background-color: white;
+}
+
+body{
+    background-color: royalblue;
+    width: 300px;
+    height: 600px;
+    border: 1px solid white;
+    font-family: 'Chelsea Market', cursive;
+}
+
+.main{
+    width: 280px;
+    height: 580px;
+    background: linear-gradient(
+        rgba(255, 255, 255, 0.5),
+        rgba(255, 255, 255, 0.5)
+      ),
+      url("../images/dog.jpg");
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+.stauts{
+    display: flex;
+    justify-content: space-between;
+    padding:10px 10px 25px 20px;
+    font-size: 12px;
+}
+
+.top{
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 10px 110px 15px;
+    font-size: 18px;
+    opacity: 0.5;
+}
+
+.picture{
+    width: 280px;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.picture-main{
+    border-radius: 50%;
+    width: 65px;
+    height: 65px;
+    margin-bottom: 10px;
+    background-image: url("../images/dog1.jpg");
+}
+.picture-text1,
+.picture-text2{
+    font-size: 12px;
+}
+.picture-text1{
+    color: #4095da;
+}
+.picture-text2{
+    font-size: 10px;
+    opacity: 0.6;
+}
+
+.text{
+    width: 280px;
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.text-box,
+.text-box1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 110px;
+    height: 40px;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+.text-box{
+    margin-left: 20px;
+    background-color: white;
+}
+
+.text-box1{
+    margin-right: 20px;
+    background-color: royalblue;
+    color: white;
+}
+
+.follower{
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    width: 190px;
+    opacity: 0.6;
+    margin-bottom: 100px;
+}
+
+.follower-box{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    font-size: 11px;
+}
+
+.nav{
+    width: 200px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    font-size: 18px;
+    margin-left: 60px;
+    margin-bottom: 25px;
+}
+
+.nav i:hover{
+    color: royalblue;
+}
+
+.nav i{
+    width: 50px;
+}
+
+.nav-icon{
+    color: royalblue;
+}
+
+.nav-bottom{
+    margin: auto;
+    width: 100px;
+    border-bottom:2px solid black;
+    opacity: 0.4;
+}

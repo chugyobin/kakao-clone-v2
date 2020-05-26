@@ -1,0 +1,38 @@
+body {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    }
+    
+    .footer {
+    position: relative;
+    width: 500px;
+    height: 100px;
+    background-color: blanchedalmond;
+    }
+    
+    .btn {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: blue;
+    top: -25%;
+    left: 50%;
+    transform: translateX(-50%);
+    }
+    
+    .footer::after {
+    content: "";
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: burlywood;
+    top: -50%;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: -9999;
+    }

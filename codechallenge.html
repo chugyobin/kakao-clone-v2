@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Kokoa Tribe</title>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" />
+    <link rel="stylesheet" href="src/challenge.css" />
+    <style>
+        body {
+            padding: 10px;
+            width: 500px;
+            height: 980px;
+            background-color: black;
+
+        }
+
+        * {
+            box-sizing: border-box;
+        }
+
+
+
+        .apple {
+            border-radius: 5%;
+            background-color: white;
+        }
+
+
+        .apple__picture {
+            display: flex;
+            justify-content: center;
+        }
+
+        .iPhone__icon {
+            display: flex;
+            justify-content: space-between;
+        }
+
+
+        .iPhone___explanation {
+            opacity: 0.5;
+        }
+
+
+        .iPhone__column {
+            margin-left: 20px;
+
+        }
+
+        .profile {
+            margin-top: 20px;
+            border-radius: 5%;
+            width: 490px;
+            height: 480px;
+            background-color: white;
+        }
+
+        .profile__bottom {
+            width: 100%;
+            display: flex;
+            justify-content: space-evenly;
+            align-items: center;
+            flex-direction: column;
+        }
+
+        .profile__bottom-child {
+            width: 100%;
+            position: relative;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .top {
+            width: 100%;
+            height: 150px;
+            background-image: url(images/sea.jpg);
+            border-radius: 20px 20px 0 0;
+        }
+
+        .picture {
+            width: 100%;
+            height: 100%;
+        }
+
+        .center {
+            width: 80px;
+            height: 80px;
+            background-color: chartreuse;
+            position: absolute;
+            top: 120px;
+            left: 42.5%;
+            transition: center 1s ease-in-out;
+            border-radius: 50%;
+            background-image: url(images/chu.jpg);
+
+        }
+
+        .center:hover {
+            transform: rotate(20deg) scale(1.2)
+        }
+
+        .case1 {
+            margin-top: 50px;
+            display: flex;
+            flex-direction: column;
+            line-height: 25px;
+        }
+
+        .product1 {
+            display: flex;
+            justify-content: center;
+        }
+
+        .product2 {
+            opacity: 0.5;
+            display: flex;
+            justify-content: center;
+        }
+
+        .case2 {
+            display: flex;
+            justify-content: space-between;
+            margin: 50px;
+        }
+
+        .small1 {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 150px;
+            height: 65px;
+            border-radius: 10px;
+            background-color: #6b75ff;
+
+        }
+
+        .small1:hover {
+            transform: scale(1.2)
+        }
+
+        .small2:hover {
+            transform: scale(1.2)
+        }
+
+        .small2 {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 150px;
+            height: 65px;
+            border-radius: 10px;
+            background-color: #eaecff;
+
+        }
+    </style>
+</head>
+
+<body>
+    <div class="apple">
+        <div class="apple__picture">
+            <img src="images/iphone.JPG" width="350px" height="350px">
+        </div>
+        <div class="iPhone__column">
+            <h3 class="iPhone___title">Apple iPhone SE2</h3>
+        </div>
+        <div class="iPhone__column">
+            <h4 class="iPhone___explanation">
+                iPhone 사상 가장 강력한칩. 가장 많이 보급된 사이즈. 가장 부담 없는 가격까지.
+                당신이 손꼽아 기다린 그 모델. 바로 iPhone SE2입니다.
+            </h4>
+        </div>
+
+        <div class="iPhone__icon">
+            <div class="iPhone__column">
+                <i class="fas fa-won-sign">
+                    <span class="iPhone___price">550,000</span>
+                </i>
+                </span>
+            </div>
+            <div class="iPhone__column">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="far fa-star"></i>
+                <span class="iPhone___review">19</span>
+            </div>
+
+        </div>
+    </div>
+    <div class="profile">
+        <div class="profile__bottom">
+            <div class="profile__bottom-child">
+                <div class="top">
+                    <div class="picture1">
+                        <div class="center"></div>
+                    </div>
+                </div>
+                <div class="case1">
+                    <span class="product1">
+                        <h2><strong>CHU</strong></h2>
+                    </span>
+                    <span class="product2">GYO BIN</span>
+                </div>
+                <div class="case2">
+                    <div class="small1">Follow</div>
+                    <div class="small2">Message</div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>

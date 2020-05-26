@@ -1,0 +1,165 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Chelsea+Market&display=swap');
+
+a{
+    color: inherit;
+    text-decoration: none;
+}
+*{
+
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Chelsea Market', cursive;
+}
+
+.camera{
+    margin: 20px;
+    width: 200px;
+    height: 200px;
+    background-image: url("../images/33.png");
+}
+
+.camera-text{
+    background-color: #263949;
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    left: 50px;
+    top: 50px;
+    padding-top: 50px;
+    opacity: 0;
+}
+.ctext1,
+.ctext2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.ctext1{
+    color: white;
+    font-size: 20px;
+}
+
+.ctext2{
+    color: red;
+    font-size: 15px;
+    margin-bottom: 20px;
+}
+
+.ctext3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    width: 110px;
+    height: 30px;
+    background-color: red;
+    color: white;   
+}
+
+.camera:hover .camera-text {
+   animation: sentAnimation 2s ease-in;
+  }
+  
+@keyframes sentAnimation {
+    from {
+      opacity: 0;
+      transform: translateX(-20px);
+    }
+    to {
+      opacity: 1;
+    }
+}
+
+.games{
+    margin: 20px;
+    width: 200px;
+    height: 200px;
+    position: relative;
+    background-image: url("../images/22.png");
+}
+
+.gtext{
+    height: 0;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    overflow: hidden;
+    transition: all .5s ease-in-out;
+    background-color: #263949;
+    width: 100%;
+}
+
+.gtext1{
+    color: white;
+}
+
+.gtext2{
+    color: red;
+    font-size: 15px;
+}
+.gtext3{
+    float: right;
+    background-color: red;
+    font-size: 15px;
+    color: white;
+    margin-right: 3px;
+}
+
+.games:hover .gtext{
+    height: 70px;
+    width: 100%;
+}
+
+.safafri{
+    margin: 20px;
+    width: 200px;
+    height: 200px;
+    
+}
+
+.stext{
+    background-color: #263949;
+    width: 200px;
+    height: 200px;
+}
+
+.stext-top{
+    padding-top: 120px;
+    width: 100%;
+    height: 80px;
+}
+.stext1{
+    margin-top: 10px;
+    color: white;
+    font-size: 12px;
+}
+
+.stext2{
+    margin-top: 5px;
+    color: red;
+    font-size: 12px;
+}
+.stext3{
+    float: right;
+    background-color: red;
+    font-size: 10px;
+    color: white;
+    margin-top: 5px;
+    margin-right: 3px;
+}
+.stext-bottom{
+    position: absolute;
+    left: 28px;
+    top: 460px;
+    width: 200px;
+    height: 200px;
+    background-image: url("../images/11.png");
+    transition: all 0.5s ease-in-out;
+}
+
+.stext-bottom:hover{
+    transform: scale(0.5) translateY(-80px);
+}

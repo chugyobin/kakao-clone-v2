@@ -11,18 +11,16 @@
 
 <body>
     <div class="status-bar">
-        <div class="s">
-            <div class="status-bar__column">
-                <span class="status-bar_clock">13:56</span>
-            </div>
-            <div class="status-bar__column">
-                <i class="fas fa-clock"></i>
-                <i class="fas fa-volume-mute"></i>
-                <i class="fas fa-wifi"></i>
-                <span class="status-bar__battery-level">100%</span>
-                <i class="fas fa-battery-full"></i>
+        <div class="status-bar__column">
+            <span class="status-bar_clock">13:56</span>
+        </div>
+        <div class="status-bar__column">
+            <i class="fas fa-clock"></i>
+            <i class="fas fa-volume-mute"></i>
+            <i class="fas fa-wifi"></i>
+            <span class="status-bar__battery-level">100%</span>
+            <i class="fas fa-battery-full"></i>
 
-            </div>
         </div>
     </div>
     <header class="header">
@@ -43,19 +41,25 @@
     </header>
     <main class="chats">
         <ul class="chats__list">
-            <li class="chats__chat">
+            <li class="chats__chat chat">
                 <a href="chat.html">
-                    <div class="chat__column">
-                        <img class="chat__avatar g-avatar" src="images/chu.jpg" width="100px" height="100px">
-                        <div class="chat__content">
-                            <span class="chat__username">
-                                CHU
-                            </span>
-                            <span class="chat__preview">Going home</span>
+                    <div class="chats__chat friend friend--lg">
+                        <div class="friend__column">
+                            <img src="images/chu.jpg" class="m-avatar friend__avatar" />
+                            <div class="friend__content">
+                                <span class="friend__name">
+                                    CHU GYO BIN
+                                </span>
+                                <span class="friend__bottom-text">
+                                    Going home!
+                                </span>
+                            </div>
                         </div>
-                    </div>
-                    <div class="chat__column">
-                        <span class="chat__timestamp">어제</span>
+                        <div class="friend__column">
+                            <span class="chat__timestamp">
+                                March 8
+                            </span>
+                        </div>
                     </div>
                 </a>
             </li>
@@ -66,13 +70,18 @@
             <li class="nav__list-item"><a href="friends.html" class="nav__list-link">
                     <i class="far fa-user"></i></a></li></a></li>
             <li class="nav__list-item"><a href="index.html" class="nav__list-link">
-                    <i class="fas fa-comment"></i></a></li>
+                    <div class="nav__badge">10</div>
+                    <i class="fas fa-comment"></i>
+                </a></li>
             <li class="nav__list-item"><a href="find.html" class="nav__list-link">
                     <i class="fas fa-search"></i>
             <li class="nav__list-item"><a href="more.html" class="nav__list-link">
                     <i class="fas fa-ellipsis-h"></i></a></li>
         </ul>
     </nav>
+    <div class="bigScreen">
+        <span class="bigScreen__text">Please make your screen small</span>
+    </div>
 </body>
 
 </html>
